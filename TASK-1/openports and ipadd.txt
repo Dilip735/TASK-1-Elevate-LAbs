@@ -1,0 +1,44 @@
+
+OPEN PORTS and IP ADDRESSES
+Discovered open port 135/tcp on 192.168.171.220
+Discovered open port 139/tcp on 192.168.171.220
+Discovered open port 445/tcp on 192.168.171.220
+Discovered open port 49665/tcp on 192.168.171.220
+Discovered open port 49664/tcp on 192.168.171.220
+Discovered open port 49670/tcp on 192.168.171.220
+Discovered open port 5040/tcp on 192.168.171.220
+Discovered open port 49666/tcp on 192.168.171.220
+Discovered open port 49667/tcp on 192.168.171.220
+Discovered open port 49668/tcp on 192.168.171.220
+
+
+
+PORT      STATE    SERVICE       VERSION
+135/tcp   open     msrpc         Microsoft Windows RPC
+137/tcp   filtered netbios-ns
+139/tcp   open     netbios-ssn   Microsoft Windows netbios-ssn
+445/tcp   open     microsoft-ds?
+5040/tcp  open     unknown
+49664/tcp open     msrpc         Microsoft Windows RPC
+49665/tcp open     msrpc         Microsoft Windows RPC
+49666/tcp open     msrpc         Microsoft Windows RPC
+49667/tcp open     msrpc         Microsoft Windows RPC
+49668/tcp open     msrpc         Microsoft Windows RPC
+49670/tcp open     msrpc         Microsoft Windows RPC
+
+
+
+Common services running on these ports
+
+                   SERVICE       VERSION
+135/tcp   open     msrpc         Microsoft Windows RPC
+137/tcp   filtered netbios-ns
+139/tcp   open     netbios-ssn   Microsoft Windows netbios-ssn
+445/tcp   open     microsoft-ds?
+5040/tcp  open     unknown
+49664/tcp open     msrpc         Microsoft Windows RPC
+49665/tcp open     msrpc         Microsoft Windows RPC
+49666/tcp open     msrpc         Microsoft Windows RPC
+49667/tcp open     msrpc         Microsoft Windows RPC
+49668/tcp open     msrpc         Microsoft Windows RPC
+49670/tcp open     msrpc

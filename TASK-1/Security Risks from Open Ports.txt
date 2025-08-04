@@ -1,0 +1,31 @@
+Security Risks from Open Ports:
+1.Remote Access Exploits: Weak SSH (Port 22) or RDP (Port 3389) can allow brute-force attacks.
+
+2.Unpatched Services: Exposed HTTP (Port 80) or FTP (Port 21) can have vulnerabilities.
+
+3.Denial-of-Service (DoS): Open ports may be flooded with traffic, disrupting services.
+
+4.Backdoor Access: Telnet (Port 23) and NetBIOS (Port 139) can provide unencrypted access.
+
+5.Exposed Databases: Open MySQL (Port 3306) or MongoDB (Port 27017) may allow unauthorized access.
+
+6.Misconfigured Firewall/Router: Open ports from misconfigurations expose internal systems.
+
+7.IoT Device Exposure: Open ports on IoT devices (like cameras) are frequent botnet targets.
+
+8.Malware/Ransomware: Exposed SMB (Port 445) can spread malware like WannaCry.
+
+9.VPN/Proxy Risks: Misconfigured VPNs or proxies can give attackers network access.
+
+10.Port Redundancy: Excessive open ports increase the attack surface.
+
+Mitigation Tips:
+Firewalls: Block unnecessary ports.
+
+Segmentation: Isolate sensitive devices.
+
+Regular Scans: Detect and close unnecessary open ports.
+
+Disable Unused Services: Turn off unused ports/protocols.
+
+Use Strong Authentication: For remote access services like SSH and RDP.
